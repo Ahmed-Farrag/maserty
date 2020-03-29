@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>  طلباتي </title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.min.css">
+  <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+  <!--start navbar-->
+  <nav class="navbar navbar-expand-lg  ml-auto">
+    <a class="navbar-brand" href="#">اكادمية <span style="color: #e8c146;">مسيرتي</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon">  <i class="fas fa-hamburger fa-2x" style="color: white;"></i> </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">رئيتنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">عن المدرسة</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">طلبات القبول</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">طلبات التوظيف</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">تسجيل الدخول</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--start navbar-->
+
+  <!--start data-->
+  <div class="orders">
+      <div class="container-fluid">
+        <div class="row m-4 text-center">
+          <div class="user_menu col mt-4">
+              <a href="#" class=" btn btn-priary  "> البيانات </a>
+              <a href="#" class=" btn btn-outline-primary"> الطلبات </a>
+          </div>
+      </div>
+         <h1 class="card-title"> الطلبات </h1>
+        <div class="row"  style="overflow-x: auto;">
+         <div class="col-lg-12">
+               
+                <table class="table">
+                  <thead class="thead-dak">
+                    <tr>
+                      <th scope="col">رقم الطلب</th>
+                      <th scope="col">اسم الطالب</th>
+                      <th scope="col">اسم الاب</th>
+                      <th scope="col">اسم العائلة</th>
+                      <th scope="col">المرحلة التعليمية</th>
+                      <th scope="col">المنهج التعليمي</th>
+                      <th scope="col">الفئة الدراسية</th>
+                      <th scope="col">تفاصيل الطالب</th>
+                      <th scope="col">وقت الانشاء</th>
+                      <th scope="col">وقت التعديل</th>
+                      <th scope="col"> الحالة</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">#55</th>
+                      <td>رامز</td>
+                      <td>فادي</td>
+                      <td>جابر</td>
+                      <td>الروضة</td>
+                      <td>التعليم العام</td>
+                      <td>بنين</td>
+                      <td> <i class="fas fa-images fa-2x" data-toggle="modal" data-target="#mymodal"></i></td>
+                      <td>22-2-2010</td>
+                      <td>22-2-2010</td>
+                      <td>
+                        <button type="button" class="btn btn-danger">
+                          رفــض
+                          <span class="sr-only"></span>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">#55</th>
+                      <td>رامز</td>
+                      <td>فادي</td>
+                      <td>جابر</td>
+                      <td>الروضة</td>
+                      <td>التعليم العام</td>
+                      <td>بنين</td>
+                      <td> <i class="fas fa-images fa-2x" data-toggle="modal" data-target="#mymodal"></i></td>
+                      <td>22-2-2010</td>
+                      <td>22-2-2010</td>
+                      <td><span class="badge badge-success">قــبــول</span></td>
+                    </tr>
+                 
+                  </tbody>
+                </table>
+        </div>
+         </div>
+        </div>
+      </div>
+  <!--end data-->
+
+  <!--start modal-->
+  <div class="modal " tabindex="-1" role="dialog" id="mymodal">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"> تفاصيل الطالب </h5>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="form-group col-lg-4 col-sm-12">
+                <label for="fname"> الأسم الطالب الاول </label>
+                <input type="text" class="form-control" name="fname" id="fname" placeholder="إدخل الأسم الأول">
+              </div>
+              <div class="form-group col-lg-4 col-sm-12">
+                <label for="lname"> الأسم الاب </label>
+                <input type="text" class="form-control" name="lname" id="lname" placeholder="إدخل الأسم الاب">
+              </div>
+              <div class="form-group col-lg-4 col-sm-12">
+                <label for="lname"> الأسم العائلة </label>
+                <input type="text" class="form-control" name="lname" id="lname" placeholder="إدخل اسم العائلة ">
+              </div>
+              <div class="form-group col-lg-6 col-sm-12">
+                <label for="lname"> أسم ولي الامر </label>
+                <input type="text" class="form-control" name="lname" id="lname" placeholder="إدخل اسم ولي الامر">
+              </div>
+              <div class="form-group col-lg-6 col-sm-12">
+                <label for="lname"> صلة القرابة </label>
+                <input type="text" class="form-control" name="lname" id="lname" placeholder="صلة القرابة">
+              </div>
+              <div class="form-group  col-lg-6 col-sm-12">
+                <label for="inlineFormInputGroup"> تاريخ الميلاد</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup">
+                </div>
+              </div>
+              <div class="form-group  col-lg-6 col-sm-12">
+                <label for="exampleFormControlSelect1"> الجنسية </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option> السعودية </option>
+                  <option> </option>
+                </select>
+              </div>
+              <div class="form-group  col-lg-6 col-sm-12">
+                <label for="exampleFormControlSelect1"> هل الطالب من ذوي الاحتياجات الخاصة؟</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option> نعم </option>
+                  <option> لا</option>
+                </select>
+              </div>
+              <div class="form-group  col-lg-6 col-sm-12">
+                <label for="exampleFormControlSelect1"> هل الطالب يعاني من مشاكل صحية؟</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option> نعم </option>
+                  <option> لا</option>
+                </select>
+              </div>
+              <div class="form-group col-lg-6 col-sm-12">
+                <label for="phone"> الهوية الوطنية/الاقامة </label>
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="الهوية الوطنية/الاقامة">
+              </div>
+              
+              <div class="form-group col-lg-6 col-sm-12">
+                <label for="phone"> رقم الهاتف </label>
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="إدخل رقم الهاتف">
+              </div>
+              <div class="form-group col-lg-12 col-sm-12">
+                <label for="email"> البريد اللإلكتروني</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="إدخل البريد الإلكتروني">
+              </div>
+              <div class="form-group col-lg-12 col-sm-12">
+                <label for="inputAddress">العنوان</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="العنوان">
+              </div>
+              <div class="form-group text-center col-lg-6 col-sm-12" >
+                <label > صورة الطالب </label>
+                    <img src="img/im1.png" width="80%" alt="">
+            </div>
+            <div class="form-group text-center col-lg-6 col-sm-12 " >
+              <label> صورة سجل الاسرة او الاقامة </label>
+                  <img src="img/im2.png" width="100%" alt="">
+          </div>
+          <div class="form-group text-center col-lg-6 col-sm-12 " >
+            <label> صورة شهاظة الميلاد </label>
+           <img src="img/im3.png" alt="">
+        </div>
+        <div class="form-group text-center col-lg-6 col-sm-12 " >
+          <label> صورة الكشف الطبي </label>
+         <img src="img/im4.png" alt="">
+      </div>
+      <div class="form-group text-center col-lg-6 col-sm-12 " >
+        <label> صورة من التحصينات الاساسية </label>
+        <img src="img/im2.png" alt="">
+    </div>
+    <div class="form-group text-center col-lg-6 col-sm-12 " >
+      <label> مرفة اختياري </label>
+  </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal" >اغلاق</button>
+          <button type="button" class="btn btn-primary" style="margin-right: 6px;">حفظ </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--start modal-->
+
+
+  <!--start footer-->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <h3 class="h1">تواصل معنا</h3>
+          <p class="text-muted"> <i class="fas fa-map-marker-alt"></i> Your address will be here </p>
+          <p class="text-muted"> <i class="fas fa-phone"></i> +000 123 456 789 </p>
+          <p class="text-muted"> <i class="fas fa-envelope"></i> youremail@email.com</p>
+          <p class="text-muted"> <i class="fas fa-at"></i> www.websit.com</p>
+        </div>
+        <div class="col-md-6 col-lg-4 fol">
+          <h2 class="h1">تابعنا</h2>
+          <ul>
+            <li><a href="https://www.facebook.com/BMW/"><i class="fab fa-facebook-f fa-3x"></i></a>
+            </li>
+            <li><a href="https://twitter.com/bmw?lang=ar"><i class="fab fa-3x fa-twitter"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/user/BMW"><i class="fab fa-whatsapp fa-3x"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="navbar-brand" href="#">
+          </a>
+          <h1 class="text-center" style="color: white; font-size: 60px;">اكادمية <span style="color: #e8c146;">مسيرتي</span></h1>     
+<br>
+          <div class="bgb text-center">
+            <a href="#top" class="to-top">
+              <i class="fa fa-chevron-up fa-2x pointer text-center"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copy ">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center">Copyright@2020 masert</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end footer-->
+ 
+
+  
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/nicescroll.js"></script>
+  <script src="vendor/owl.carousel.min.js"></script>
+  <script src="js/js.js"></script>
+</body>
+
+</html>

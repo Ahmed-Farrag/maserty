@@ -1,0 +1,630 @@
+
+@font-face {
+    font-family: 'TanseekModernProArabic';
+    src: url('../fonts/ArbFONTS-TanseekModernProArabic-ExBold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TanseekModernProArabic';
+}
+
+body {
+    background-color: white !important;
+    z-index: 1;
+
+}
+
+/*start navbar*/
+.navbar{
+    background-color: #21325e;
+}
+.navbar a{
+    color: white; direction: ltr; font-size: 30px;
+}
+
+/*start header*/
+.header img{
+    height: 600px; 
+}
+.header .carousel-caption{
+    position: relative;  padding: 50px 0; font-size: 30px;
+}
+.header .carousel-caption h1{
+    font-size: 150px;
+}
+.header .carousel-caption h1, p{
+    color: #21325e; 
+}
+.header .carousel-item img{
+    position: relative; right: 100px;
+}
+.header .carousel{
+    width: 1500px; padding: 50px 0;
+}
+
+@media (max-width: 992px) {
+    .header .carousel-item img{
+        position: relative; right: -0px; top: -100px; 
+    }
+    .header {
+        height: 920px ; 
+    }
+    .header .carousel-caption{
+        position: relative; padding: 10px 0; font-size: 30px; width: 80%;
+    }
+}
+    @media (max-width: 768PX){
+        .header .carousel-caption h1{
+            font-size: 100px; 
+       
+      }
+}
+
+
+ /*imges-slide*/
+ .imges-slide{
+padding: 100px 0;
+ }
+ .imges-slide img{height: 390px; border-radius: 30px;}
+ .imges-slide .owl-carousel.owl-rtl {
+    direction: rtl;
+    height: 400px;}
+.imges-slide .owl-theme .owl-nav{
+   font-size: 80px; width: 110%; position: relative; top: -250px; right: -50px;
+}
+.imges-slide .owl-theme .owl-nav .owl-next{
+    float: left; color: #e8c146;
+}
+.imges-slide .owl-theme .owl-nav .owl-prev{
+    float: right;   color: #e8c146;
+}
+@media (max-width: 1300px) {
+    .imges-slide .owl-theme .owl-nav{
+    display: none;
+     }
+}
+
+/*icons*/
+.icons{
+    background-color: #e8c146; padding: 50px;
+}
+.icons img{
+   border: 3px solid #21325e; border-radius: 50%; background-color: white;  width: 100px; height: 100px; padding: 10px 0;
+}
+.icons .col-md-3{
+    cursor: pointer;
+}
+.icons h1{
+    color: #21325e;
+}
+/*start qbol*/
+
+.qbol img{
+    background-color: white; 
+}
+@media (max-width: 992px) {
+    .qbol img{
+        background-color: white;
+        width: 100%;
+    }
+}
+.qbol .bg{
+    background-color: #21325e; padding: 20px 30px;
+}
+.qbol h1{
+    color: white;  font-size: 100px;
+}
+.qbol p{
+    color: white;margin-bottom: 50px;
+}
+.qbol button{
+    color: white;  font-size: 40px; position: absolute;
+    left: 44px;
+    bottom: 30px;
+    border-radius: 25px;
+}
+
+/*start a3lanat*/
+.adara{
+    padding: 100px 0; 
+}
+.adara .carousel-inner{
+    border: 3px solid #21325e; border-radius: 30px; padding:  10px; height: 530px;
+}
+.adara .carousel-item{
+     padding:  50px 100px; 
+}
+.adara h1{
+    font-size: 100px;
+}
+.adara .span{
+    background-color: #21325e;
+        width: 400px;
+        height: 10px;
+        position: relative;
+        right: 340px;
+}
+.adara h1,
+.adara h2,
+.adara h4{
+    color: #21325e;
+}
+.adara i{
+    color: #21325e;
+}
+@media (max-width: 992px) {
+    .adara .carousel-item{
+        padding:  10px; 
+   }
+   .adara .carousel-inner{
+     height: auto;
+}
+.adara .span{
+    background-color: #21325e;
+        width: 400px;
+        height: 10px;
+        position: relative;
+        right: 130px;
+}
+}
+@media (max-width: 768PX){
+    .adara .span{
+            width: 200px;
+            position: relative;
+            right: 50px;
+    }
+ .adara h1{
+     font-size: 60px;
+ }
+.adara h2{
+    font-size: 30px;
+}
+.adara h4{
+    font-size: 20px;
+}
+  }
+
+
+/*start qbol2*/
+.qbol2 .bg{
+    background-color: #e8c146; padding: 20px 30px;
+}
+
+.qbol2 img{
+    background-color: white; 
+}
+@media (max-width: 992px) {
+    .qbol2 img{
+        background-color: white;
+        width: 100%;
+    }
+}
+
+.qbol2 h1{
+    color: white;  font-size: 100PX;
+}
+.qbol2 p{
+    color: white;margin-bottom: 50px;
+}
+.qbol2 button{
+    color: white;  font-size: 30px; position: absolute;
+    left: 44px;
+    bottom: 30px;
+    border-radius: 25px;
+    background-color: #21325e;
+}
+
+/*start location*/
+.mapouter{position:relative;text-align:right;height:500px;width:1080px;}
+          
+          @media (max-width: 992px) {
+            iframe{
+        width: 754px;}
+    }
+  
+/*start footer*/
+.footer{
+    background-color: #21325e; padding: 50px 0; color: white;  height: 310px;}
+    @media (max-width: 992px) {
+        .footer{
+         height: auto;}
+      
+    }
+    .footer .text-muted{
+        font-size: 20PX;
+    }
+    .footer ul li a {
+        position: relative;
+        display: block;
+        color: #21325e;
+        background-color: white;
+        width: 60px;
+        text-align: center;
+        border-radius: 50%
+    }
+    .footer ul {
+        position: relative;
+        top: 30px;
+        left: 12px;
+        display: flex
+    }
+    .footer ul li {
+        list-style: none;
+        margin: 0 10px
+    }
+    .footer ul li .fa {
+        color: #fff;
+        font-size: 25px;
+        line-height: 50px;
+    }
+    
+.footer  .to-top{
+    color: #e8c146; font-size: 20px;
+}
+
+.copy{
+    background-color: black; color: white;
+}
+
+
+
+/*start log in*/
+.login .forms{
+    padding: 100px 0; 
+}
+.login .forms form{
+    width: 400px; float: left;
+}
+.btn1 .sign{
+  margin: 12px;
+}
+.login h1{
+    font-size: 50px; color: #21325e;margin: 30px;
+}
+.login form input{
+    border-radius: 30px;  font-size: 30px; height: 70px;
+}
+
+.login form button,
+.login .btn1 button{
+    border-radius: 30px; background-color: #21325e; font-size: 30px;
+}
+.login form button:hover,
+.login .btn1 button:hover{
+    border-radius: 30px; background-color: #e8c146;
+
+}
+@media (max-width: 1300px) {
+    .login .forms form{
+        width: 300px;right: -40px; position: relative;
+    }
+}
+@media (max-width: 992px) {
+    .login img{
+        width: 100%; 
+    }
+    .login .forms form{
+        right: -100px; position: relative;
+    }
+}
+@media (max-width: 768PX) {
+    .login img{
+        width: 100%; 
+    }
+    .login .forms form{
+        right: -5px; position: relative; width: 95%;
+    }
+}
+
+/*start log in*/
+.login2 .forms{
+    padding: 100px 0; 
+}
+.login2 .forms form{
+    width: 400px; float: left;
+}
+.btn2 .sign{
+  margin: 12px;
+}
+.login2 h1{
+    font-size: 50px; color: #21325e;margin: 30px;
+}
+.login2 form input{
+    border-radius: 30px;  font-size: 30px; height: 70px;
+}
+
+.login2 form button,
+.login2 .btn2 button{
+    border-radius: 30px; background-color: #21325e; font-size: 30px;
+}
+.login2 form button:hover,
+.login2 .btn2 button:hover{
+    border-radius: 30px; background-color: #e8c146;
+
+}
+@media (max-width: 1300px) {
+   
+    .login2 .forms form{
+        width: 300px;right: -40px; position: relative;
+    }
+}
+@media (max-width: 992px) {
+    .login2 img{
+        width: 60%; 
+    }
+    .login2 .forms form{
+        right: 50px; position: relative;
+    }
+}
+@media (max-width: 768PX) {
+    .login2 img{
+        width: 100%; 
+    }
+    .login2 .forms form{
+        right: -5px; position: relative; width: 95%;
+    }
+}
+
+
+/*header-resala*/
+.header-resala{
+    background: url('../img/q.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, .7);
+    height: auto;
+}
+.header-resala .overlay .text h1{
+ padding: 100px 0 0; font-size: 5rem; color: #e8c146;
+}
+.header-resala .overlay .text h3{
+    padding: 50px 0;  color: #fff;
+}
+
+
+/*header-an*/
+.header-an{
+    background: url('../img/p.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, .4);
+    height: auto;
+}
+.header-an .overlay .text h1{
+ padding: 100px 0 0; font-size: 5rem; color: #e8c146;
+}
+.header-an .overlay .text h3{
+    padding: 50px 0;  color: #fff;
+}
+@media (max-width: 768PX) {
+    .header-an .overlay .text h1,
+    .header-resala .overlay .text h1,
+    .header-resala .overlay .text h1{
+         font-size: 4rem; 
+       }
+    .header-an .overlay .text h3,
+    .header-resala .overlay .text h3,
+    .header-resala .overlay .text h3{
+       font-size: 20px;
+    }
+}
+
+
+/*header-roya*/
+.header-roya{
+    background: url('../img/photo-1488998427799-e3362cec87c3.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, .4);
+    height: auto;
+}
+.header-roya .overlay .text h1{
+ padding: 50px 0 0; font-size: 10rem; color: #e8c146;
+}
+.header-roya .overlay .text h3{
+    padding: 50px 0;  color: #fff;
+}
+
+
+/*start buttons*/
+.orders .user_menu a,
+.data .user_menu a,
+.acceptOrder .user_menu a,
+.twzefOrders .user_menu a{
+  border: 1px solid #21325e;   height: 60px; font-size: 30px;  color: #e8c146;
+}
+.orders .user_menu a:first-child,
+.data .user_menu a:first-child,
+.acceptOrder .user_menu a:first-child,
+.twzefOrders .user_menu a:first-child{
+     height: 60px; font-size: 30px; background-color: #21325e; color: #e8c146;
+}
+.orders .user_menu a:hover,
+.data .user_menu a:hover,
+.acceptOrder .user_menu a:hover,
+.twzefOrders .user_menu a:hover{
+border: #21325e; background-color: #21325e; color: #fff;
+}
+
+
+/*start data*/
+.data {
+    background: url('../img/Confetti-Doodles.png') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    padding: 30px;
+}
+.data form input{
+    border-radius: 20px; height: 50px;
+}
+.data h1{
+    color: #21325e; font-size: 70px;
+}
+.data form label{
+    color: #21325e; font-size: 20px;
+}
+.btndata button{
+    background-color: #21325e; font-size: 30px; border-radius: 10px;
+}
+.btndata button:hover{
+    background-color: #e8c146;
+}
+@media(max-width: 320PX){
+    .data .card-title {
+        float: left;
+         }
+    .data form .card-body {
+   width: 200px;  float: left;
+    }
+}
+
+/*start orders*/
+.orders {
+    background: url('../img/tlabat.png') no-repeat top center;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.orders h1{
+    color: #21325e; font-size: 100px;
+}
+.orders .thead-dak{
+    background-color: #e8c146;
+}
+.orders table{
+   font-size: 25px;
+    background-color: rgba(0, 0, 0, .4); color: #21325e;
+}
+.orders table tbody{
+    color: white;
+}
+.orders table tbody i{
+    cursor: pointer;
+}
+@media(max-width: 320PX){
+    .data .card-title {
+        float: left;
+         }
+    .data form .card-body {
+   width: 200px;  float: left;
+    }
+}
+
+/*start modal*/
+.modal{
+    color: #21325e; font-size: 20px;
+}
+
+.dropzone {
+    min-height: 150px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: white;
+    padding: 70px 60px;
+}
+
+
+/*start acceptOrder*/
+.acceptOrder {
+
+    background-color: whitesmoke;
+    height: auto;
+    padding: 30px;
+}
+.acceptOrder form input,
+.acceptOrder select {
+    border-radius: 20px; height: 50px;
+}
+.acceptOrder h1{
+    color: #21325e; font-size: 70px;
+}
+.acceptOrder form label{
+    color: #21325e; font-size: 30px;
+}
+ .btndata button{
+    background-color: #21325e; font-size: 30px; border-radius: 10px;
+}
+ .btndata button:hover{
+    background-color: #e8c146;
+}
+.acceptOrder span{
+    height: 50px; font-size: 20px;
+}
+
+
+
+/*start acceptOrder*/
+.twzefOrders {
+
+    background-color: whitesmoke;
+    height: auto;
+    padding: 30px;
+}
+.twzefOrders form input,
+.twzefOrders select {
+    border-radius: 20px; height: 50px;
+}
+.twzefOrders h1{
+    color: #21325e; font-size: 70px;
+}
+.twzefOrders form label{
+    color: #21325e; font-size: 30px;
+}
+ .btndata button{
+    background-color: #21325e; font-size: 30px; border-radius: 10px;
+}
+ .btndata button:hover{
+    background-color: #e8c146;
+}
+.twzefOrders span{
+     height: 50px; font-size: 20px;
+}
+
+/* Img Upload */
+.btn-file {
+    position: relative;
+    overflow: hidden;
+
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block; 
+}
+
+#img-upload{
+    width: 100%;}
